@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8f9;
+}
+.main {
+  background-color: #007f89;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.logo-brand {
+  display: flex;
+}
+.logo-brand img {
+  height: 50px;
+  margin-right: 10px;
+}
+.brand-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+nav a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.academy-logo {
+  width: 130px;
+  margin-bottom: 20px;
+}
+.tagline {
+  font-size: 20px;
+  margin-bottom: 35px;
+  color: #004d4f;
+}
+.login-box {
+  background: white;
+  padding:  0 30px;;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+}
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #007f89;
+}
+.login-box input {
+  width: 260px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.login-box button {
+  width: 260px;
+  padding: 10px;
+  background: #007f89;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.login-box button:hover {
+  background: #005f61;
+}
+.signup-link {
+  margin-top: 15px;
+  font-size: 15px;
+}
+.signup-link a {
+  color: #007f89;
+  font-weight: bold;
+}
